@@ -5,5 +5,5 @@ const PORT = 8000;
 const app = express();
 
 app.listen(PORT, () => {
-  console.log("Server berjalan");
+  console.log(`Server berjalan di port: ${PORT}`);
 });
